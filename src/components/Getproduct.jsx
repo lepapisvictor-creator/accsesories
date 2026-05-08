@@ -88,7 +88,7 @@ const Getproduct = () => {
                 {/* bind the states  */}
                 <h2 className='text-info  text-center'>{loading}</h2>
                 <h2 className='text-warning  text-center'>{error}</h2>
-                {filtered_products.slice(0, viscibleCount).map(singleproduct => (
+                {sorted_products.slice(0, viscibleCount).map(singleproduct => (
                     <div className="col-md-3     mb-2">
                         <div className='card  shadow  h-100'>
 
